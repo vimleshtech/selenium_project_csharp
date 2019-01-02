@@ -17,6 +17,7 @@ namespace SeleniumDay1
             //IWebDriver : is interface
             //ChromeDriver : is inbuilt class
 
+            //open web driver
             IWebDriver driver = new ChromeDriver();
             driver.Url = "https://www.facebook.com/"; //open url 
 
